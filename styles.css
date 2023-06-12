@@ -1,10 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: rgb(104, 41, 41);
   }
   
   h1 {
     text-align: center;
+    color: red;
   }
   
   div {
@@ -14,19 +16,42 @@ body {
   label {
     display: inline-block;
     width: 100px;
+    color: red;
   }
   
+
+
+textarea {
+  width: 100px;
+  color: rgb(241, 0, 0);
+  background-color: rgb(240, 239, 239);
+  resize: vertical; 
+   
+}
+
+
+
+
   input[type="number"] {
-    width: 200px;
+    width: 100px;
+    height: 20px;
+    color: rgb(241, 0, 0);
+    background-color: rgb(240, 239, 239);
+    resize: none;
+    overflow: hidden;
   }
   
   button {
     display: block;
     margin: 10px auto;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: red;
   }
   
   #result {
     font-weight: bold;
     text-align: center;
+    color: red;
   }
   
